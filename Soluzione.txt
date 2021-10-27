@@ -12,7 +12,7 @@
 
 3.Selezionare tutti gli studenti che hanno più di 30anni 
     
-    SELECT TIMESTAMPDIFF(YEAR,`date_of_birth`,CURDATE()) 
+    SELECT *
     FROM `students`
     WHERE TIMESTAMPDIFF(YEAR,`date_of_birth`,CURDATE()) > 30;
 
